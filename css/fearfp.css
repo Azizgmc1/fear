@@ -1,0 +1,14 @@
+  .zoom-img {
+    transition: transform 0.2s;
+  }
+
+  .zoom-img:hover {
+    transform: scale(1.1);
+
+  }
+h1{
+    text-align: center;
+    color: black;
+    font-family: "Arial Black";
+    font-size: 300%;
+}

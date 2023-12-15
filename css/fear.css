@@ -1,0 +1,73 @@
+ nav  {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  
+  .landingpic{
+   object-fit: fill;
+   max-height: 60%;
+   max-width: 100%;
+  }
+  h1{
+    font-family: Copperplate;
+    text-align: center;
+    color: black;
+  }
+  .container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.custom-video-container {
+  width: 100%;
+  max-width: 3000px; /* Set your desired maximum width */
+  height: 550px; /* Set your desired height */
+  margin: auto; /* Center the container horizontally */
+  overflow: hidden; /* Hide overflow to prevent scroll bars */
+}
+.custom-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-zoom {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-zoom:hover {
+  transform: scale(1.4); /* Adjust the scale factor for the desired zoom level */
+}
+.modal-image {
+  width: 100%;
+  height: auto;
+}
+.navbar-nav.ml-auto .nav-link i {
+  font-size: 20px; /* Adjust the size as needed */
+  margin-left: 20px; /* Adjust the left margin as needed */
+  color: black;
+ }
+ .pricecolor{
+  color: purple;
+  font-family: Copperplate;
+  font-size: large;
+ }
+ .namecolor{
+  font-family: Copperplate;
+  font-size: large;
+  color: black;
+ }
+ .btn-heart {
+  position: absolute;
+  top: 1px;
+  right: 15px;
+}
